@@ -12,10 +12,10 @@
     "autoload": {
         "psr-4": {
             "XiaohuiLam\\Laravel\\Test\\": "src/",
-            "Tests\\": "../../vendor/laravel/laravel/tests/"
+            "Tests\\": "../../laravel/laravel/tests/"
         },
         "classmap": [
-            "../../vendor/laravel/laravel/tests/"
+            "../../laravel/laravel/tests/"
         ]
     },
     "minimum-stability": "stable",
