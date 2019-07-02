@@ -12,10 +12,10 @@
     "autoload": {
         "psr-4": {
             "XiaohuiLam\\Laravel\\Test\\": "src/",
-            "Tests\\": "vendor/laravel/laravel/tests/"
+            "Tests\\": "../../vendor/laravel/laravel/tests/"
         },
         "classmap": [
-            "vendor/laravel/laravel/tests/"
+            "../../vendor/laravel/laravel/tests/"
         ]
     },
     "minimum-stability": "stable",
@@ -24,7 +24,6 @@
         "laravel/laravel": ">=5.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "*",
-        "laravel/laravel": ">=5.0"
+        "phpunit/phpunit": "*"
     }
 }

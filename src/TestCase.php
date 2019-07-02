@@ -5,7 +5,7 @@ namespace XiaohuiLam\Laravel\Test;
 use Tests\TestCase as BaseTestCase;
 use TestCase as LaravelTestCase;
 
-if (!class_exists(TestCase::class)) {
+if (!class_exists(BaseTestCase::class)) {
     abstract class TestCase extends LaravelTestCase
     {
     }
