@@ -8,7 +8,7 @@ Laravel TestCase Adpter Between the Laravel 5.1 ~ 5.8
 ## Install
 
 ```bash
-composer require --dev xiaohuilam/laravel-flysystem-wantu -vvv
+composer require --dev xiaohuilam/test -vvv
 ```
 
 ## License
